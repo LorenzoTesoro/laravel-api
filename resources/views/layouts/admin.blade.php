@@ -75,6 +75,13 @@
                                     Types
                                 </a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link {{ Route::currentRouteName() === 'admin.tags.index' ? 'active' : '' }}">
+                                    <span data-feather="file" class="align-text-bottom"></span>
+                                    <i class="fas fa-bookmark fa-sm fa-fw"></i>
+                                    Tags
+                                </a>
+                            </li>
                     </div>
                 </nav>
 
